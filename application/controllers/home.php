@@ -244,40 +244,6 @@ class Home extends CI_Controller
 		$menu['faleconosco'] = 'active';
 		$conteudo['pagina_view'] = 'faleconosco_view';
 
-		// if($this->input->post('enviar_email') == "enviar"){		
-		// 	$nome = $this->input->post('nome');
-		// 	$email = $this->input->post('email');
-		// 	$telefone = $this->input->post('phone');
-		// 	$mensagem = utf8_decode($this->input->post('mss'));
-		// 	$assunto = utf8_decode('Contato via site Enorsul - Fale Conosco');
-
-		// 	$this->load->library('email');
-		// 	$config['mailtype'] = 'html';
-		// 	$this->email->initialize($config);
-
-		// 	$this->email->from("$email","$nome");
-		// 	$this->email->to('paulobaronista@gmail.com');	
-		// 	//$this->email->to('enorsul@enorsul.com.br');		
-		// 	//$this->email->cc('enorsul@enorsul.com.br, enorsul@enorsul.com.br');
-		// 	//$this->email->bcc('enorsul@enorsul.com.br, enorsul@enorsul.com.br');
-
-		// 	$this->email->subject($assunto);
-		// 	$this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
-		// 	<head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
-		// 		Nome:		{$nome}<br/>
-		// 		E-mail:		{$email}<br/>
-		// 		Telefone:	{$telefone}<br/>
-		// 		Mensagem:	{$mensagem}<br/>
-		// 	</body></html>");
-
-		// 	if($this->email->send()){
-		// 		redirect('contato/obrigado');
-		// 	}else{
-		// 		redirect('contato/fail');
-		// 	}
-
-		// }
-
 		if ($this->input->post('enviar_email') == "enviar") {
 			$nome = $this->input->post('nome');
 			$email = $this->input->post('email');
