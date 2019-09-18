@@ -41,6 +41,9 @@
 $route['default_controller'] = "home";
 $route['institucional'] = "home/institucional";
 $route['institucional/politicadequalidade'] = "home/politicadequalidade";
+$route['institucional/missao'] = "home/missao";
+$route['institucional/visao'] = "home/visao";
+$route['institucional/valores'] = "home/valores";
 $route['institucional/focosdeatuacao'] = "home/focosdeatuacao";
 $route['institucional/quemsomos'] = "home/quemsomos";
 $route['institucional/historico'] = "home/historico";

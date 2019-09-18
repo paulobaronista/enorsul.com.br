@@ -36,6 +36,48 @@ class Home extends CI_Controller
 		$this->load->view('rodape');
 		$this->load->view('html_footer');
 	}
+	public function missao()
+	{
+		$data['title'] = 'Enorsul - Serviços em Saneamento LTDA.';
+		$data['description'] = 'A Enorsul acredita que, em saneamento básico, a raiz para a solução da maioria dos problemas reside na mescla balanceada do antigo com o novo, do tradicional com o inovador. E investe nessa idéia.';
+		$data['keywords'] = 'emissao, norte-sul, servicos em saneamento ltda, automacao, tecnologia, projeto de concessoes, desenvolvimento operacional, obras';
+		$menu['missao'] = 'active';
+		$conteudo['pagina_view'] = 'missao_view';
+		$this->load->view('html_header', $data);
+		$this->load->view('header');
+		$this->load->view('menu', $menu);
+		$this->load->view('conteudo', $conteudo);
+		$this->load->view('rodape');
+		$this->load->view('html_footer');
+	}
+	public function visao()
+	{
+		$data['title'] = 'Enorsul - Serviços em Saneamento LTDA.';
+		$data['description'] = 'A Enorsul acredita que, em saneamento básico, a raiz para a solução da maioria dos problemas reside na mescla balanceada do antigo com o novo, do tradicional com o inovador. E investe nessa idéia.';
+		$data['keywords'] = 'emissao, norte-sul, servicos em saneamento ltda, automacao, tecnologia, projeto de concessoes, desenvolvimento operacional, obras';
+		$menu['visao'] = 'active';
+		$conteudo['pagina_view'] = 'visao_view';
+		$this->load->view('html_header', $data);
+		$this->load->view('header');
+		$this->load->view('menu', $menu);
+		$this->load->view('conteudo', $conteudo);
+		$this->load->view('rodape');
+		$this->load->view('html_footer');
+	}
+	public function valores()
+	{
+		$data['title'] = 'Enorsul - Serviços em Saneamento LTDA.';
+		$data['description'] = 'A Enorsul acredita que, em saneamento básico, a raiz para a solução da maioria dos problemas reside na mescla balanceada do antigo com o novo, do tradicional com o inovador. E investe nessa idéia.';
+		$data['keywords'] = 'emissao, norte-sul, servicos em saneamento ltda, automacao, tecnologia, projeto de concessoes, desenvolvimento operacional, obras';
+		$menu['valores'] = 'active';
+		$conteudo['pagina_view'] = 'valores_view';
+		$this->load->view('html_header', $data);
+		$this->load->view('header');
+		$this->load->view('menu', $menu);
+		$this->load->view('conteudo', $conteudo);
+		$this->load->view('rodape');
+		$this->load->view('html_footer');
+	}
 	public function focosdeatuacao()
 	{
 		$data['title'] = 'Enorsul - Serviços em Saneamento LTDA.';

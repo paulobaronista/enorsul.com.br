@@ -2,6 +2,7 @@
 	<div class="box-container">
 		<div class="box-institucional box-pm">
 			<h2>Prêmios</h2>
+			
 			<figure id="premio01">
 				<img src="<?= base_url(); ?>assets/images/01-PREMIO EFICIENCIA OPERACIONAL MS 2009.png" alt="Premiada em 2009">
 				<figcaption>
@@ -96,6 +97,12 @@
 				<img src="<?= base_url(); ?>assets/images/16-VU-Programa-Agua-Legal.png" alt="Premiada em 2019">
 				<figcaption>
 					2019 - Homenagem da Associação de Moradores Jardim Manacá da Serra pela regularização da Água através do Programa Água Legal.
+				</figcaption>
+			</figure>
+			<figure id="premio17">
+				<img src="<?= base_url(); ?>assets/images/17-MS-Excelencia-Global.png" alt="Premiada em 2019">
+				<figcaption>
+					2019 – Reconhecimento como “Melhores em Gestão” no Programa de Excelência Global da Sabesp Unidade de Negócio Sul
 				</figcaption>
 			</figure>
 		</div>
